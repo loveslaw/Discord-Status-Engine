@@ -1,0 +1,36 @@
+{
+  "client_id": "1200000000000000000",
+  "rotation_seconds": 15,
+  "profiles": [
+    {
+      "name": "Live Telemetry",
+      "details_template": "💻 CPU: {cpu} | RAM: {ram}",
+      "state_template": "⚡ RAM: {ram_gb} | Up: {uptime}",
+      "large_image": "cpu_chip",
+      "large_text": "Discord-Status-Engine",
+      "small_image": "python_icon",
+      "small_text": "Python 3.12 Engine",
+      "buttons": [
+        {
+          "label": "GitHub Profile",
+          "url": "https://github.com/loveslaw"
+        }
+      ]
+    },
+    {
+      "name": "Developer Mode",
+      "details_template": "🛠️ Active Task: {top_proc}",
+      "state_template": "🔥 CPU Cores: {cores} | Power: {battery}",
+      "large_image": "code_workspace",
+      "large_text": "Coding & Building",
+      "small_image": "verified_dev",
+      "small_text": "loveslaw",
+      "buttons": [
+        {
+          "label": "View Projects",
+          "url": "https://github.com/loveslaw"
+        }
+      ]
+    }
+  ]
+}
